@@ -8,7 +8,7 @@ const PORT = 5000;
 
 // Allow React app (different port) to call this API
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://your-expense-tracker.vercel.app'],
+  origin: ['http://localhost:5173', 'https://expense-tracker-dusky-alpha-52.vercel.app'],
   credentials: true
 }));
 // Parse JSON in request body
