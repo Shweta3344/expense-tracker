@@ -7,8 +7,10 @@ const app = express();
 const PORT = 5000;
 
 // Allow React app (different port) to call this API
-app.use(cors());
-
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://your-expense-tracker.vercel.app'],
+  credentials: true
+}));
 // Parse JSON in request body
 app.use(express.json());
 
