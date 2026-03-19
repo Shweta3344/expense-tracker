@@ -23,13 +23,13 @@ A full-stack expense tracking app built with React and Node.js.
 ## Screenshots
 
 ### Dashboard
-![Dashboard](./images/dashboard.png)
+![Dashboard](./images/dashboardPage.png)
 
 ### Expense List
-![Expense List](./images/expense-list.png)
+![Expense List](./images/expense-listPage.png)
 
 ### Add Expense
-![Add Expense](./images/add-expense.png)
+![Add Expense](./images/add-expensePage.png)
 
 - Node.js 20+ (or use Vite 5 with Node 20.11)
 - npm
