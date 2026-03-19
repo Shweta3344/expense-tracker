@@ -14,4 +14,7 @@
     "better-sqlite3": "^12.8.0",
     "uuid": "^8.3.2"
   }
+  "engines": {
+  "node": ">=20"
+}
 }
